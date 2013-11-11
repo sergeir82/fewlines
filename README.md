@@ -10,6 +10,9 @@ $('#sample').fewlines();
 Plugin options:
 
 lines - The number of lines that you want to show. If amount of text less than a specified number of lines, the text will remain as is (default 2).
+
 openMark - Open mark label (default '...').
+
 newLine - If this option is true the open mark is placed on new line (default false).
+
 closeMark - Close mark label (default 'close').
