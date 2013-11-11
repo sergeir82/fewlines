@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fewlines plugin test</title>
+    <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.12.0.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/qunit/qunit-1.12.0.js"></script> 
+    <script src="../fewlines.js"></script>
+    <script src="./test.js"></script>
+    
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+    <div id='standard'>x</div>
+    <div id='standard-bold'>x</div>
+    <div id='standard-large'>x</div>
+    <div id='standard-sans'>x</div>
+    <div class='samples-container'>
+        <div id='sample-1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eius, libero laudantium ratione eos minus reprehenderit. Dolorem, quam, voluptatibus, eos, aut harum illum doloremque modi ab ducimus fugit impedit eius?</div>
+        <div id='sample-2'>Lorem ipsum dolor sit amet</div>
+        <div id='sample-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eius, libero laudantium ratione eos minus reprehenderit. Dolorem, quam, voluptatibus, eos, aut harum illum doloremque modi ab ducimus fugit impedit eius?</div>
+        <div id='sample-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eius, libero laudantium ratione eos minus reprehenderit. Dolorem, quam, voluptatibus, eos, aut harum illum doloremque modi ab ducimus fugit impedit eius?</div>
+        <div id='sample-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eius, libero laudantium ratione eos minus reprehenderit. Dolorem, quam, voluptatibus, eos, aut harum illum doloremque modi ab ducimus fugit impedit eius?</div>
+        <div id='sample-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eius, libero laudantium ratione eos minus reprehenderit. Dolorem, quam, voluptatibus, eos, aut harum illum doloremque modi ab ducimus fugit impedit eius?</div>
+        <div id='sample-7'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eius, libero laudantium ratione eos minus reprehenderit. Dolorem, quam, voluptatibus, eos, aut harum illum doloremque modi ab ducimus fugit impedit eius?</div>
+        <div id='sample-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eius, libero laudantium ratione eos minus reprehenderit. Dolorem, quam, voluptatibus, eos, aut harum illum doloremque modi ab ducimus fugit impedit eius?</div>
+        <div id='sample-9'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eius, libero laudantium ratione eos minus reprehenderit. Dolorem, quam, voluptatibus, eos, aut harum illum doloremque modi ab ducimus fugit impedit eius?</div>
+        <div id='sample-10'><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eius, libero laudantium ratione eos minus reprehenderit. Dolorem, quam, voluptatibus, eos, aut harum illum doloremque modi ab ducimus fugit impedit eius?</div></div>
+    </div>
+    <style>
+        body{
+            font-family: serif;
+            font-size:16px;
+        }
+        .samples-container > div{
+            outline:solid 1px #0000FF;
+        }
+        #standard{
+            font-size:1em;
+        }
+        #standard-bold{
+            font-size:1em;
+            font-weigth:bold;
+        }
+        #standard-large{
+            font-size: 1.25em;
+        }
+        #standard-sans{
+            font-family: monospace;
+        }
+        #sample-1{
+            width:300px;
+        }
+        #sample-2{
+            width:300px;
+        }
+        #sample-3{
+            width:300px;
+        }
+        #sample-4{
+            width:300px;
+            font-weight: bold;
+        }
+        #sample-5{
+            width:300px;
+            font-size: 1.25em;
+        }
+        #sample-6{
+            padding:30px;
+            width:240px;
+        }
+        #sample-7{
+            font-family: monospace;
+            width:300px;
+        }
+        #sample-8{
+            width:300px;
+        }
+
+        #sample-9{
+            width:300px;
+        }
+        #sample-10{
+            padding:30px;
+            width:10%;
+        }
+    </style>
+</body>
+</html>

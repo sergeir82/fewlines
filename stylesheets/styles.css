@@ -411,3 +411,17 @@ footer {
     color:#444;
   }
 }
+
+div.sample{
+  margin: 10px 20px 20px 0;
+  padding:10px 0 20px;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+#sample-1,
+#sample-2,
+#sample-3{
+  width:300px;
+}
+
