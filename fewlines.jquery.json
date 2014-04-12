@@ -1,0 +1,27 @@
+{
+    "name": "fewlines",
+    "title": "jQuery Fewlines",
+    "description": "A lightweight jQuery plugin to cut the text to a specified number of lines",
+    "keywords": [
+        "lines",
+        "text",
+        "cut"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Sergey Ratnikov",
+        "url": "https://github.com/sergeir82"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/sergeir82/fewlines/blob/master/LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/sergeir82/fewlines/issues",
+    "homepage": "http://sergeir82.github.io/fewlines",
+    "download": "https://github.com/sergeir82/fewlines/zipball/master",
+    "dependencies": {
+        "jquery": ">=1.8"
+    }
+}
